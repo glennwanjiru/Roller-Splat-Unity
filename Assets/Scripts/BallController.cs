@@ -22,7 +22,7 @@ public class BallController : MonoBehaviour
 
     private void Start()
     {
-        solveColor = Random.ColorHSV(.5f, 1); // Only take pretty light colors
+        solveColor = Random.ColorHSV(.6f, 1); // Only take pretty light colors
         GetComponent<MeshRenderer>().material.color = solveColor;
     }
 
