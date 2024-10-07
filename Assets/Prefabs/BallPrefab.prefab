@@ -156,6 +156,8 @@ MonoBehaviour:
   swooshSound: {fileID: 8300000, guid: 64e9796d7aad36a4e8ba779edbce7040, type: 3}
   stopSound: {fileID: 8300000, guid: dbb6c267aebc52349a6ced1a6b3361e6, type: 3}
   volume: 1
+  stopParticleEffect: {fileID: 7496679928003430943, guid: c3719071fffcbc34d995b3fde558f0ad,
+    type: 3}
   minSwipeRecognition: 500
 --- !u!96 &898787736992851124
 TrailRenderer:
