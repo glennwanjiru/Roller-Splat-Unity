@@ -73,8 +73,10 @@ public class BallController : MonoBehaviour
                 PlayStopSound();
                 PlayStopParticleEffect();
 
+
             }
         }
+
 
         if (isTraveling)
             return;
