@@ -92,7 +92,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 64f2f4f5b2ef65e4cb532cbabaf65ba0,
+  m_LightingDataAsset: {fileID: 112000000, guid: b8df3ea024e7c8f4681b39320f3bd534,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 5b991edebb99c2c43aab854111b47355,
     type: 2}
@@ -983,7 +983,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -8456,11 +8456,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BallPrefab
-      objectReference: {fileID: 0}
-    - target: {fileID: 4024817593937064510, guid: 968ceca3600fb0f469d0d46721f26410,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4024817593937064510, guid: 968ceca3600fb0f469d0d46721f26410,
         type: 3}
