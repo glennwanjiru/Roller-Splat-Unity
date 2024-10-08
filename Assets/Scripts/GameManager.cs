@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < allGroundPieces.Length; i++)
         {
-            if (allGroundPieces[i].isColored == false)
+            if (!allGroundPieces[i].isColored)
             {
                 isFinished = false;
                 break;
@@ -58,7 +58,17 @@ public class GameManager : MonoBehaviour
 
     private void NextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        int totalScenes = SceneManager.sceneCountInBuildSettings;
 
+        // If the next scene index is out of bounds, go back to the first scene (index 0)
+        if (nextSceneIndex >= totalScenes)
+        {
+            SceneManager.LoadScene(0); // Load the first scene
+        }
+        else
+        {
+            SceneManager.LoadScene(nextSceneIndex); // Load the next scene
+        }
+    }
 }
