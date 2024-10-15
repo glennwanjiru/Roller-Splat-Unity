@@ -15,6 +15,7 @@ public class BallController : MonoBehaviour
     [Header("Particle Effects")]
     public ParticleSystem stopParticleEffect;
 
+
     public int minSwipeRecognition = 500;
 
     private AudioSource audioSource;
@@ -42,7 +43,7 @@ public class BallController : MonoBehaviour
         // Set the ball's speed when it should travel
         if (isTraveling)
         {
-            rb.linearVelocity = travelDirection * speed;
+            rb.velocity = travelDirection * speed;
         }
 
         // Paint the ground
